@@ -1,27 +1,26 @@
 # BauCuaC#-Winform.Net
 Bầu Cua Game 2023 - Code By Rioxer 
 
-#FullCode
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace BauCua
-{
+using System; <br>
+using System.Collections.Generic; <br>
+using System.ComponentModel; <br>
+using System.Data; <br>
+using System.Drawing; <br>
+using System.Linq; <br>
+using System.Text;<br>
+using System.Threading.Tasks;<br>
+using System.Windows.Forms;<br>
 
-    // CODE BY RIOXER
-    public partial class Form1 : Form
+namespace BauCua<br>
+{   
+    <strong> // CODE BY RIOXER </strong> <br>
+    public partial class Form1 : Form <br>
     {
-        string pathImg; // Img Bầu Cua
-        int choose; // Chọn 
-        int money;  // Tiền cược
-        int newMoney = 10000;   // Money Player
+        string pathImg; // Img Bầu Cua <br>
+        int choose; // Chọn  <br>
+        int money;  // Tiền cược <br>
+        int newMoney = 10000;   // Money Player <br>
         Random rand = new Random();
 
         public Form1()
